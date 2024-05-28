@@ -49,6 +49,12 @@ class IOSDummyAssetsProcessor extends QueueProcessor {
               os,
               config: config,
             ),
+            DummyAssetsProcessor(
+              '$source/LauchIcon.imageset',
+              '$destination/${flavorName}LauchIcon.imageset',
+              os,
+              config: config,
+            ),
           ],
           config: config,
         );
